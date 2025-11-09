@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartógrafo Digital - Mapas Personalizados</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9f8f3;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('https://i.imgur.com/8O3L7vd.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    header p {
+      font-size: 1.3em;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    header a {
+      background-color: #b49c60;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .sobre, .servicos, .vantagens, .contato {
+      margin-bottom: 50px;
+    }
+
+    .sobre img {
+      float: right;
+      width: 300px;
+      margin-left: 20px;
+      border-radius: 10px;
+    }
+
+    .servicos-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .servico {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1 1 220px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .vantagens ul {
+      list-style-type: '🧭 ';
+      padding-left: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #b49c60;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ddd;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: #b49c60;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Transforme Mundos Imaginários em Mapas Reais</h1>
+    <p>Arte digital e cartografia personalizada para RPGs, autores e criadores.</p>
+    <a href="#contato">Solicite seu mapa agora</a>
+  </header>
+
+  <section class="sobre">
+    <h2>Quem sou eu</h2>
+    <img src="https://i.imgur.com/MRvwvP8.jpg" alt="Artista digital cartógrafo">
+    <p>Sou um artista digital especializado em cartografia fantástica. Cada mapa é feito manualmente, com atenção aos detalhes e atmosfera do seu mundo. Crio mapas para livros, campanhas de RPG, jogos digitais e tabuleiros.</p>
+  </section>
+
+  <section class="servicos">
+    <h2>Serviços Oferecidos</h2>
+    <div class="servicos-container">
+      <div class="servico">
+        <h3>🗺️ Mapas de RPG personalizados</h3>
+        <p>Estilo medieval, fantasia ou sci-fi.</p>
+      </div>
+      <div class="servico">
+        <h3>📖 Mapas para livros e quadrinhos</h3>
+        <p>Ideal para autores e editoras independentes.</p>
+      </div>
+      <div class="servico">
+        <h3>🎮 Mapas para jogos digitais</h3>
+        <p>Layouts otimizados para interfaces e gameplay.</p>
+      </div>
+      <div class="servico">
+        <h3>🧩 Comissões sob medida</h3>
+        <p>Projetos exclusivos para seu universo criativo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="vantagens">
+    <h2>Vantagens e Benefícios</h2>
+    <ul>
+      <li>Arte 100% original e feita sob medida.</li>
+      <li>Entrega digital em alta resolução.</li>
+      <li>Comunicação direta com o artista.</li>
+      <li>Experiência em estilos variados.</li>
+      <li>Revisões incluídas no processo.</li>
+    </ul>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Peça seu orçamento</h2>
+    <p>Envie sua ideia e receba um orçamento personalizado.</p>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea rows="5" placeholder="Descreva seu projeto" required></textarea>
+      <button type="submit">Enviar mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Siga nas redes: 
+      <a href="#">Instagram</a> | 
+      <a href="#">ArtStation</a> | 
+      <a href="mailto:cartografodigital@email.com">E-mail</a>
+    </p>
+    <p>© 2025 Cartógrafo Digital. “Cada mundo merece um mapa para ser explorado.”</p>
+  </footer>
+
+</body>
+</html>
